@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg-main: #F7F3EE;
+  --matcha-primary: #8A9A7B;
+  --matcha-dark: #6E7E5F;
+  --matcha-light: #EBF0E6;
+  --rose-primary: #C86D7B;
+  --rose-dark: #A85361;
+  --rose-light: #F9ECEE;
+  --mauve-dark: #6E4048;
+  --text-primary: #4A3B32;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif !important;
+  background-color: var(--bg-main) !important;
+  color: var(--text-primary) !important;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Fredoka', cursive, sans-serif !important;
+}
+
+.bg-matcha { background-color: var(--matcha-primary); }
+.bg-matcha-dark { background-color: var(--matcha-dark); }
+.bg-matcha-light { background-color: var(--matcha-light); }
+.text-matcha { color: var(--matcha-primary); }
+.text-matcha-dark { color: var(--matcha-dark); }
+
+.bg-rose-accent { background-color: var(--rose-primary); }
+.bg-rose-dark { background-color: var(--rose-dark); }
+.bg-rose-light { background-color: var(--rose-light); }
+.text-rose-accent { color: var(--rose-primary); }
+.text-rose-dark { color: var(--rose-dark); }
+
+.text-mauve { color: var(--mauve-dark); }
+.bg-cream { background-color: var(--bg-main); }
